@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS FIRST CODE</title>
+    
+    <style>
+      
+
+
+.hye{
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+
+}
+.box{
+
+        height: 30rem;
+        width: 40rem;
+        background: rgb(200, 251, 183);
+        border:rgb(0, 0, 0) solid 3px;
+         display :flex;
+
+         transition: .5s ease-in-out;
+        align-items: center;
+        
+         
+}
+.box:hover
+{
+       background: rgb(228, 0, 0); 
+       border-radius: 5rem; 
+       transform: translateY(-10px);
+       transform: rotate(360deg);
+}
+img{
+        height: 30vh;
+        margin: 0 0 0 3rem;
+        /* padding: 0px 0px 0px  35px; */
+        border-radius: 30rem;
+        /* box-shadow: 5px 4px 5px rgba(0,0,0,.5); */
+        transition: .2s;
+                
+}
+img:hover 
+{
+
+height: 30.5vh;
+width: 30.5vh;
+box-shadow: 5px 8px 50px #00000080;
+transform:scale3d(30px,50px,90
+px) ;
+
+}
+p{
+        text-align: center;
+        padding: 0 0 0 5rem;
+        font-size: larger; 
+        color: rgb(19, 19, 19);
+        transition: .1s;
+        
+        
+}
+p:hover{
+      
+        font-size: x-large;
+        color: rgb(251, 248, 248);
+        transform: translateY(-10px);
+        
+}
+
+
+    </style>
+   
+</head>
+<body>
+   
+<div class="hye">
+   <div class="box">
+    <img src="IMG-20210411-WA0025.jpg" alt="" > 
+    <p>Name : Preetam</br> USN : 4AL20AI33</p>
+    
+   </div>
+  </div>
+</body>
+</html>
